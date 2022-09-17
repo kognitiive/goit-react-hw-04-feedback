@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+const Button = ({ addFeedback, label }) => (
+  <button type="button" onClick={addFeedback}>
+    {label}
+  </button>
+);
 
 class Feedback extends Component {
   state = {
