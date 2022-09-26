@@ -18,10 +18,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
         <p>total: {total}</p>
       </li>
       <li>
-        <p>
-          positive feedback:{' '}
-          {isNaN(positivePercentage) ? '0' : positivePercentage}%
-        </p>
+        <p>positive feedback: {positivePercentage}%</p>
       </li>
     </StatisticsList>
   );
