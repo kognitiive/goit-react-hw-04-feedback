@@ -72,7 +72,7 @@ export default function App() {
             />
         )
           : (
-            <p>'There is no feedback'</p>
+            <p>There is no feedback</p>
           )
         }
         </Section>
